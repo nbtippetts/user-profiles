@@ -23,7 +23,7 @@
     resave: false
   }));
 
-  app.use(express.static(__dirname + '/public'));
+  app.use(express.static('public'));
   console.log('this is dirname', __dirname)
 
 
